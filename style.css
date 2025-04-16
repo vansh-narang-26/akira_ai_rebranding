@@ -120,7 +120,7 @@ body {
         justify-content: center;
         align-items: center;
         gap: 20px;
-        padding-top: 50px;
+        /* padding-top: 50px; */
     }
 
     .nav-links.active {
@@ -297,7 +297,7 @@ body {
 }
 
 /*Indusrtry section */
-@media (max-width: 431px) {
+@media (max-width: 768px) {
     .industry-img img {
         width: 250px;
         /* Adjust to smaller width */
@@ -554,7 +554,7 @@ body {
     /* color: #1a1a1a; */
 }
 
-@media(max-width:431px) {
+@media(max-width:768px) {
     .benefits h2 {
         /* font-size: 36px; */
         padding: 20px;
@@ -658,6 +658,7 @@ body {
 
 /* Footer */
 .footer-div {
+    padding: 0px 20px;
     background-color: #F4F7FF;
     display: flex;
     flex-direction: column;
@@ -676,7 +677,7 @@ footer {
     justify-content: space-between;
     max-width: 1185px;
     color: black;
-    padding: 60px 0 30px;
+    padding: 60px 0px 30px;
 }
 
 @media (max-width: 1024px) {
@@ -691,7 +692,12 @@ footer {
     }
 
     .footer-div-1 {
-        gap: 16px;
+        gap: 40px;
+    }
+}
+@media (max-width: 768px) {
+    .footer-div-1 {
+        gap: 20px;
     }
 }
 
@@ -718,9 +724,20 @@ footer {
     display: flex;
     gap: 12px;
 }
+.img-div img{
+    width: 150px;
+}
 @media (max-width: 768px) {
     .social-div{
         gap: 6px;
+    }
+    .social-div img{
+        width: 28px;
+        height: 28px;
+    }
+    .img-div img {
+        width: 150px;
+        /* Adjust the width for smaller screens */
     }
 }
 @media (max-width: 431px) {
@@ -748,7 +765,7 @@ footer {
 @media (max-width: 380px) {
     .img-div {
         flex-direction: column;
-        gap: 10px;
+        gap: 20px;
     }
 
     .img-div img {
@@ -790,6 +807,7 @@ footer {
 }
 
 .footer-link-div {
+    /* padding: 0px 10px; */
     border-bottom: 1px solid #1a1a1a;
     max-width: 1185px;
     width: 100%;
